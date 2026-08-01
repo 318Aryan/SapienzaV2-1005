@@ -1,4 +1,4 @@
-# ⚡ Sapienza-1005 ❤️  
+# ⚡ SapienzaV2-1005 ❤️  
 **Where Learning Meets Fun**  
 Challenge your mind, level up your skills, and dominate the leaderboard — all while playing exciting educational games.
 
@@ -10,53 +10,99 @@ Challenge your mind, level up your skills, and dominate the leaderboard — all 
 
 ## 📖 Overview
 
-**Sapienza-1005** is a next-generation learning platform that transforms studying into a fun, competitive experience.  
+**SapienzaV2-1005** is a next-generation learning platform that transforms studying into a fun, competitive experience.  
 We combine **educational mini-games**, **gamified scoring systems**, **AI tutoring**, and **global competition** to create an environment where learning feels like play.  
 
 No more boring study sessions — here, every quiz, puzzle, and challenge earns you rewards, builds your skills, and puts you one step closer to the top of the **Leaderboard**.
 
 ---
-
 ## ✨ Key Features (Detailed)
 
-### 🎮 Educational Mini-Games
-A variety of interactive games designed to target different skill areas:
-- **Math Challenges** – Quick calculations, problem-solving, and number patterns.
-- **Logic Puzzles** – Shape sequences, matching, and deductive reasoning.
-- **Language Games** – Vocabulary tests, grammar challenges, and spelling races.
-- **Trivia & General Knowledge** – Stay sharp on history, science, and more.
-
-Each game is designed to be **short, addictive, and skill-building**.
+### 🤖 AI Lesson Generation
+- Upload PDFs, PowerPoint presentations, notes, or YouTube videos.
+- AI automatically generates lessons, quizzes, flashcards, and revision material.
+- Extracts important concepts and structures content into interactive learning modules.
+- Reduces lesson preparation time while improving classroom engagement.
 
 ---
 
-### ⚡ Bolts Reward System
-- Earn **Bolts** for winning games, answering correctly, or hitting streaks.
-- Spend Bolts to unlock advanced challenges or customize your profile.
-- The more Bolts you have, the higher your **status** in the community.
+### 👨‍🏫 Teacher Dashboard
+- Create and manage multiple classrooms, subjects, and students.
+- Generate AI-powered lessons, quizzes, and assignments in seconds.
+- Track student progress, concept mastery, and classroom performance.
+- Organize teaching resources and manage announcements from one dashboard.
 
 ---
 
-### ❤️ Heart Lives System
-- Hearts represent your **energy/lives**.
-- Every challenge you play costs a Heart — so choose wisely!
-- Win games to **earn extra Hearts** and keep your streak alive.
-- Hearts recharge over time, encouraging balanced play.
+### 🎓 Student Dashboard
+- Access all classes, assignments, quizzes, and learning resources in one place.
+- Continue learning with personalized recommendations and AI-generated revision.
+- Monitor XP, streaks, achievements, and overall academic progress.
+- Receive instant feedback and detailed explanations after every activity.
 
 ---
 
-### 🏆 Global Leaderboard
-- Real-time ranking system showing your position among all players.
-- Compete with friends or challenge strangers from around the world.
-- Filters for **daily**, **weekly**, and **all-time** leaders.
-- Boost your ranking by consistently performing well in games.
+### 📊 AI Analytics & Insights
+- Visualize class performance through interactive charts and reports.
+- Detect weak concepts and common misconceptions using AI analysis.
+- Monitor individual student progress and engagement over time.
+- Help teachers make data-driven decisions for better learning outcomes.
 
 ---
 
-### 📚 Study Mode
-- Switch from competitive games to **solo learning mode**.
-- Access focused quizzes, flashcards, and practice tests.
-- Perfect for **revision** before exams or learning at your own pace.
+### 📝 Assignments & Assessments
+- Create AI-generated quizzes and homework with customizable settings.
+- Support practice mode, graded assignments, and timed assessments.
+- Automatically evaluate submissions and provide instant feedback.
+- Track completion rates and student performance across every class.
+
+---
+
+### 🎮 Gamified Learning
+- Earn XP and level up by completing lessons and quizzes.
+- Build daily learning streaks to encourage consistent study habits.
+- Unlock achievements, badges, and rewards for academic milestones.
+- Compete with classmates through interactive leaderboards.
+
+---
+
+### 📚 Smart Learning Resources
+- Access AI-generated flashcards, summaries, and revision notes.
+- Organize learning material into structured topics and chapters.
+- Review important concepts with personalized study suggestions.
+- Quickly revisit previous lessons through an organized resource library.
+
+---
+
+### 🏫 Classroom Management
+- Create unlimited classrooms and manage multiple subjects.
+- Invite students securely using unique class codes.
+- Share announcements, resources, and important classroom updates.
+- Keep all learning activities organized within a centralized workspace.
+
+---
+
+### 💳 Billing & Subscription
+- Secure subscription management powered by Stripe.
+- Support Free, Pro, and School plans with premium AI features.
+- View payment history, invoices, and account usage.
+- Manage AI credits and storage limits from the billing dashboard.
+
+---
+
+### 🔒 Authentication & Security
+- Secure authentication powered by Clerk.
+- Separate access for Students, Teachers, and Administrators.
+- Protected routes with role-based permissions.
+- Secure session management and account protection.
+
+---
+
+### 📱 Modern User Experience
+- Fully responsive design optimized for desktop, tablet, and mobile.
+- Clean interface built with modern UI components and animations.
+- Fast performance with seamless navigation across the platform.
+- Accessible, intuitive, and designed for an engaging learning experience.
 
 ---
 
@@ -73,12 +119,6 @@ Each game is designed to be **short, addictive, and skill-building**.
 - Play against learners worldwide.
 - Chat and share tips in multiplayer modes.
 - Join tournaments and seasonal events for exclusive rewards.
-
----
-
-### 📱 Responsive Design
-- Fully optimized for **desktop**, **tablet**, and **mobile**.
-- Play and study anytime, anywhere, on any device.
 
 ---
 
