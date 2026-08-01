@@ -1,4 +1,4 @@
-# ⚡ SapienzaV2-1005 ❤️  
+# ⚡ SapienzaV2-1005 
 **Where Learning Meets Fun**  
 Challenge your mind, level up your skills, and dominate the leaderboard — all while playing exciting educational games.
 
