@@ -36,7 +36,7 @@ export const AiInsightCard = ({ studentId, studentName }: Props) => {
           </div>
           <div>
             <p className="font-bold text-neutral-700">AI analysis</p>
-            <p className="text-xs text-neutral-500">Generated from {studentName}&apos;s real activity — not a template.</p>
+            <p className="text-xs text-neutral-500">Generated from {studentName}&apos;s activity.</p>
           </div>
         </div>
         <Button variant="primary" size="sm" onClick={onGenerate} disabled={pending}>
