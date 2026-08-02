@@ -1,10 +1,8 @@
-# ⚡ SapienzaV2 ❤️  
+# ⚡ SapienzaV2  
 **Where Learning Meets Fun**  
 Challenge your mind, level up your skills, and dominate the leaderboard — all while playing exciting educational games.
 
-[![Live Website](https://img.shields.io/badge/Live%20Site-Visit%20Now-brightgreen)](https://sapienza-1005.vercel.app)
 [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
-[![GitHub Stars](https://img.shields.io/github/stars/318Aryan/Sapienza-1005?style=social)](https://github.com/318Aryan/Sapienza-1005/stargazers)
 
 ---
 
@@ -89,6 +87,7 @@ Each game is designed to be **short, addictive, and skill-building**.
 | **Frontend**  | Next.js |
 | **Backend**   | Next.js API Routes |
 | **Database**  | PostgreSQL / NeonDB |
+| **AI Tools**  | Claude AI |
 | **Auth**      | Clerk |
 | **Payments**  | Stripe |
 | **AI Chatbot**| BotPress AI |
@@ -98,13 +97,10 @@ Each game is designed to be **short, addictive, and skill-building**.
 
 ## 🚀 Getting Started
 
-### Use Online  
-🔗 **Live Demo:** [https://sapienza-1005.vercel.app](https://sapienza-1005.vercel.app)
-
 ### Run Locally  
 ```bash
 # 1. Clone the repository
-git clone https://github.com/318Aryan/Sapienza-1005.git
+git clone https://github.com/318Aryan/SapienzaV2-1005.git
 
 # 2. Go into the project directory
 cd Sapienza-1005
