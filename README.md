@@ -17,14 +17,14 @@ No more boring study sessions — here, every quiz, puzzle, and challenge earns 
 
 ## ✨ Key Features (Detailed)
 
-### 🎮 Educational Mini-Games
-A variety of interactive games designed to target different skill areas:
-- **Math Challenges** – Quick calculations, problem-solving, and number patterns.
-- **Logic Puzzles** – Shape sequences, matching, and deductive reasoning.
-- **Language Games** – Vocabulary tests, grammar challenges, and spelling races.
-- **Trivia & General Knowledge** – Stay sharp on history, science, and more.
+### 💻 Coding Challenges
+A variety of interactive coding activities designed to build real programming skills:
+- **Programming Fundamentals** – Variables, data types, loops, conditions, and functions.
+- **Logic & Problem Solving** – Algorithms, debugging, pattern recognition, and computational thinking.
+- **Web Development** – HTML, CSS, JavaScript, responsive layouts, and UI challenges.
+- **Programming Languages** – Practice Python, Java, JavaScript, SQL, and other languages through interactive exercises.
 
-Each game is designed to be **short, addictive, and skill-building**.
+Each challenge is designed to be **hands-on, engaging, and focused on real-world coding skills.**
 
 ---
 
@@ -86,7 +86,7 @@ Each game is designed to be **short, addictive, and skill-building**.
 |---------------|--------------|
 | **Frontend**  | Next.js |
 | **Backend**   | Next.js API Routes |
-| **Database**  | PostgreSQL / NeonDB |
+| **Database**  | SQLite |
 | **AI Tools**  | Claude AI |
 | **Auth**      | Clerk |
 | **Payments**  | Stripe |
