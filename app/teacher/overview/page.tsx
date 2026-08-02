@@ -104,10 +104,10 @@ const TeacherOverviewPage = async () => {
             value={isPro ? classes.length : `${classes.length}/${FREE_TIER_LIMITS.maxClasses}`}
             tone={!isPro && classes.length >= FREE_TIER_LIMITS.maxClasses ? "rose" : "sky"}
           />
-          <StatCard icon={Users} label="Students enrolled" value={totalStudents} tone="green" />
+          <StatCard icon={Users} label="Students" value={totalStudents} tone="green" />
           <StatCard
             icon={AlertCircle}
-            label="Needs grading"
+            label="Grading"
             value={pendingGradingCount}
             tone={pendingGradingCount > 0 ? "amber" : "sky"}
           />
