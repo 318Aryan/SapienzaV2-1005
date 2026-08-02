@@ -10,7 +10,7 @@ import "./globals.css";
 const font = Nunito({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Sapienza",
+  title: "SapienzaV2",
   description: "Intelligent Learning. Designed to Motivate.",
   icons: {
     icon: ['/favicon.ico', '/mascot.svg'],

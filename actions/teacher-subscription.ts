@@ -41,7 +41,7 @@ export const createTeacherStripeUrl = async () => {
         price_data: {
           currency: "USD",
           product_data: {
-            name: "LessonAI Teacher Pro",
+            name: "SapienzaV2 Teacher Pro",
             description: "Unlimited classes, assignments, and AI-generated content",
           },
           unit_amount: 2900, // $29.00 USD

@@ -129,6 +129,63 @@ ${sourceText}
   return sanitizeGeneratedContent(JSON.parse(response.text) as GeneratedContent);
 };
 
+export type StudentInsightInput = {
+  studentName: string;
+  points: number;
+  currentStreak: number;
+  conceptMastery: { title: string; masteryPct: number | null; totalCount: number }[];
+  assignmentHistory: { title: string; status: string; score: number | null; totalPoints: number }[];
+};
+
+export type StudentInsight = {
+  summary: string;
+  strengths: string[];
+  growthAreas: string[];
+  recommendation: string;
+};
+
+const STUDENT_INSIGHT_SCHEMA = {
+  type: "object",
+  properties: {
+    summary: { type: "string" },
+    strengths: { type: "array", items: { type: "string" } },
+    growthAreas: { type: "array", items: { type: "string" } },
+    recommendation: { type: "string" },
+  },
+  required: ["summary", "strengths", "growthAreas", "recommendation"],
+  additionalProperties: false,
+} as const;
+
+export const generateStudentInsight = async (
+  input: StudentInsightInput,
+): Promise<StudentInsight> => {
+  const response = await ai.models.generateContent({
+    model: MODEL,
+    contents: `You are a teaching assistant writing a short, plain-language analysis of one student for their teacher. Use only the data given below — don't invent scores or events that aren't there. Be specific (name actual concepts and assignments) and constructive, not generic.
+
+Write:
+- summary: 2-3 sentences on how this student is doing overall.
+- strengths: 2-3 short bullet points naming specific concepts or habits they're doing well on.
+- growthAreas: 2-3 short bullet points naming specific concepts they're struggling with (below 70% mastery counts as struggling) or assignments they're behind on. If nothing stands out, say so honestly.
+- recommendation: one concrete, actionable next step the teacher could take with this student.
+
+Student data:
+"""
+${JSON.stringify(input, null, 2)}
+"""`,
+    config: {
+      responseMimeType: "application/json",
+      responseJsonSchema: STUDENT_INSIGHT_SCHEMA,
+    },
+  });
+
+  if (!response.text) {
+    throw new Error("AI did not return an analysis");
+  }
+
+  return JSON.parse(response.text) as StudentInsight;
+};
+
 export type MisconceptionCandidate = {
   conceptId: number;
   question: string;

@@ -68,7 +68,7 @@ const STEPS = [
 
 const FAQS = [
   {
-    question: "Is LessonAI free to use?",
+    question: "Is SapienzaV2 free to use?",
     answer: "Yes. Both students and teachers can get started for free, no credit card required. Teachers can optionally upgrade for unlimited classes and AI-generated content.",
   },
   {

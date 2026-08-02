@@ -7,7 +7,7 @@ const SelectRolePage = () => {
     <div className="h-screen flex flex-col items-center justify-center gap-y-8 px-6">
       <div className="flex flex-col items-center gap-y-2 text-center">
         <h1 className="text-2xl lg:text-3xl font-bold text-neutral-700">
-          How will you use LessonAI?
+          How will you use SapienzaV2?
         </h1>
         <p className="text-neutral-500">
           This decides what you see next.

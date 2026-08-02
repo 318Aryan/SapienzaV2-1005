@@ -15,6 +15,8 @@ import {
   TableRow,
 } from "@/components/ui/table";
 
+import { AiInsightCard } from "./ai-insight-card";
+
 const masteryColor = (pct: number | null) => {
   if (pct === null) return "bg-neutral-200";
   if (pct < 50) return "bg-rose-500";
@@ -81,6 +83,8 @@ const TeacherStudentProfilePage = async ({ params }: Props) => {
           tone="indigo"
         />
       </div>
+
+      <AiInsightCard studentId={student.userId} studentName={student.userName} />
 
       <section className="flex flex-col gap-y-4">
         <h2 className="text-lg font-bold text-neutral-700">Concept mastery</h2>
